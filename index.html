@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sum Inputs</title>
+</head>
+<body>
+    <p><h1> Summation Wizzard</h1></p>
+    <p><h3>Provide two values in the fields below, and click the <b>Sum</b> button:</h3></p>
+    <input type="number" id="input1" placeholder="Enter a number">
+    <input type="number" id="input2" placeholder="Enter another number">
+    <button onclick="sumInputs()">Sum</button>
+    <p>Result: <span id="result">0</span></p>
+
+    <script>
+        function sumInputs() {
+            // Get the values from the input fields
+            var input1Value = parseFloat(document.getElementById('input1').value) || 0;
+            var input2Value = parseFloat(document.getElementById('input2').value) || 0;
+
+            // Calculate the sum
+            var sum = input1Value + input2Value;
+
+            // Display the result
+            document.getElementById('result').textContent = sum;
+        }
+    </script>
+</body>
+</html>
