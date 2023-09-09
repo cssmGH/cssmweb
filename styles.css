@@ -1,14 +1,15 @@
 /* Apply grey background to the entire page */
 body {
-    background-color: rgb(225, 204, 204);
+    background-color: rgb(231,239,246);
+    font-family: Arial, sans-serif;
 }
 
 /* Format H1 tags with blue color */
 h1 {
-    color: blue;
+    color: rgb(42,77,105);
 }
 
 /* Format H3 tags with green color */
 h3 {
-    color: rgb(75, 150, 75);
+    color: rgb(75,134,180);
 }
