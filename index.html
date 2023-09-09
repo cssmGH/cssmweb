@@ -12,18 +12,8 @@
     <button onclick="sumInputs()">Sum</button>
     <p>Your result is: <span id="result">0</span></p>
 
-    <script>
-        function sumInputs() {
-            // Get the values from the input fields
-            var input1Value = parseFloat(document.getElementById('input1').value) || 0;
-            var input2Value = parseFloat(document.getElementById('input2').value) || 0;
+ <!-- Link to the external JavaScript file -->
+ <script src="sumScript.js"></script>
 
-            // Calculate the sum
-            var sum = input1Value + input2Value;
-
-            // Display the result
-            document.getElementById('result').textContent = sum;
-        }
-    </script>
 </body>
 </html>
