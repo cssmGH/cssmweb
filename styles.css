@@ -1,0 +1,14 @@
+/* Apply grey background to the entire page */
+body {
+    background-color: rgb(225, 204, 204);
+}
+
+/* Format H1 tags with blue color */
+h1 {
+    color: blue;
+}
+
+/* Format H3 tags with green color */
+h3 {
+    color: rgb(75, 150, 75);
+}
