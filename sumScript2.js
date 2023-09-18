@@ -10,7 +10,7 @@
 
             // Display the result
             var resultElement = document.getElementById("result");
-            resultElement.textContent = "Result: " + sum;
+            resultElement.textContent = sum;
 
             // Set the color based on the sum value
             if (sum > 10) {
